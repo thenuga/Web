@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>hikkaduwa</title>
+</head>
+<body>
+    <section id="images">
+        <img src="images/logo1.png" class="logo">
+        <div class="turtle-text">
+            <h1>THE GREAT TURTLE PROJECT</h1>
+            <p>Join The Great Turtle Project in Sri Lanka as a volunteer, and help make an impact on the conservation of the <br> country's beautiful turtles</p>
+            
+        </div>
+         </section>
+         <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="turtlecatergories.html">Turtle categories</a></li>
+                    <li><a href="threats.html">Threats</a></li>
+                    <li><a href="hikkaduwa.html">Hikaduwa turtle hatchery</a></li>
+                    <li><a href="other hatcheries.html">Other turtle hatcheries</a></li>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Kosgama</a>
+                                <li><a href="#">Delthota</a>
+                        </ul>
+                    </div>
+                    <li><a href="#">purchase and donate Page</a></li>
+                </ul>
+            </nav>
+         </div>
+         <div id="menuBtn">                                                                                                                                   
+            <img src="images/menuefinal.png" id="menu">
+         </div>
+        <!--hikkaduwa-->
+            <section id="hikkaduwa">
+                 <div class="title-text3">
+                
+                 <p>hikkaduwa Turtle Hatchery</p>
+        
+                 <h1>hikkaduwa turtlehatchery</h1>
+                </div>
+                    <div class="hikkaduwa-box">
+                    <div class="hikkaduwa-col">
+                    <p>The population of sea turtles, a significant component of Sri Lanka's biodiversity, has been decreasing as a result of many threats. Their threatened or critically threatened state is primarily due to habitat loss, pollution, and overfishing.
+
+                        Sea turtles are seriously endangered in Sri Lanka due to habitat destruction. Nesting places have been lost and the sea turtles' natural habitat has been disrupted by the development of hotels and other tourism infrastructure along the coast. Because they can't locate suitable areas to lay their eggs and hatch their young, sea turtle populations have decreased as a result.</p>
+                    <div>
+                        <div class="hikkaduwa-img">
+                            <img src="images/hikkaduwa.jpg" width="240px" height="240px">
+                        </div>
+                        <div class="hikkaduwa-col">
+                             <p>The issue of pollution to sea turtles in Sri Lanka is another significant one. Sea turtles can become entangled in pollution-related plastics, such as fishing nets and plastic bags, and drown as a result. In addition to harming sea turtles and their habitats, pollution from oil spills and other harmful substances can also do so. As a result, since they cannot thrive in dirty waterways, their populations may collapse.
+
+                                Sea turtles in Sri Lanka face a third significant threat from overfishing. 
+                                <br>
+                                <br>
+                                Injuries or fatalities can result from turtles becoming caught in fishing nets or unintentionally being caught by fisherman. Sea turtles may have a harder time surviving if overfishing depletes the food sources on which they depend.The Sri Lankan government has put in place laws and rules to safeguard sea turtles and their habitats in order to counter these concerns. The use of gill nets and trawling, two fishing methods that threaten marine turtles, is prohibited by these rules. The government has also created protected places where sea turtles can lay their eggs without being bothered by people.
+
+                                Sea turtle conservation activities are actively supported by non-governmental organizations (NGOs) in Sri Lanka.
+                                <br>
+                                <br> These groups aim to save and care for wounded sea turtles while also educating people about the value of sea turtles and their habitats. Additionally, they collaborate with neighborhood groups to encourage clean water and pollution reduction.
+                                Sea turtles still suffer serious risks in Sri Lanka despite these efforts. In order to safeguard the survival of these lovely animals and ensure that future generations can enjoy them, it is crucial for individuals, governments, and organizations to keep cooperating. We can contribute to the preservation of Sri Lanka's abundant biodiversity by encouraging sustainable habits and supporting conservation activities.
+                            </p></div>
+                                    </div>
+                             </section>
+                             <script>
+                                var menuBtn= document.getElementById("menuBtn")
+                                var sidenav= document.getElementById("sidenav")
+                                var menu= document.getElementById("menu")
+                
+                                sidenav.style.right="-250px";
+                
+                                menuBtn.onclick=function(){
+                                    if(sidenav.style.right=="-250px"){
+                                    sidenav.style.right="0";
+                                    menu.src="images/close.png";
+                                }
+                                else {
+                                    sidenav.style.right="-250px";
+                                    menu.src="images/menu.png";
+                                }
+                            }
+                            var scroll = new SmoothScroll('a[href*="#"]', {
+                    speed: 1000,
+                    speedAsDuration: true
+                });
+                                </script>
+                
+                        
+                    </body>
+                </html>

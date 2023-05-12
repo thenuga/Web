@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>purchase page</title>
+</head>
+<body>
+    <section id="images">
+        <img src="images/logo1.png" class="logo">
+        <div class="turtle-text">
+            <h1>THE GREAT TURTLE PROJECT</h1>
+            <p>Join The Great Turtle Project in Sri Lanka as a volunteer, and help make an impact on the conservation of the <br> country's beautiful turtles</p>
+            
+        </div>
+         </section>
+         <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="turtlecatergories.html">Turtle categories</a></li>
+                    <li><a href="threats.html">Threats</a></li>
+                    <li><a href="hikkaduwa.html">Hikaduwa turtle hatchery</a></li>
+                    <li><a href="other hatcheries.html">Other turtle hatcheries</a></li>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Kosgama</a>
+                                <li><a href="#">Delthota</a>
+                        </ul>
+                    </div>
+                    <li><a href="#">purchase and donate Page</a></li>
+                </ul>
+            </nav>
+         </div>
+         <div id="menuBtn">
+            <img src="images/menuefinal.png" id="menu">
+         </div>
+        <!--Purchase-->
+            <section id="hikkaduwa">
+                 <div class="title-text3">
+                
+                 <p>hikkaduwa Turtle Hatchery</p>
+        
+                 <h1>hikkaduwa turtlehatchery</h1>
+                </div>
+                    <div class="hikkaduwa-box">
+                    <div class="hikkaduwa-col">
+                    <p>The reef has suffered high degradation due to both natural and human activities. The live coral cover was decreased from 47 percent to 13 percent in a coral bleaching event in 1998,[2] induced by the 1998 El Niño.[4] It has been suggested that at least 30-40 percent of coral reef should be restored in order for it to be capable of sustaining itself. Despite being designated as a protected area, the coral reef has been subject to constant exploitation including removal of breeding ornamental fish for the commercial market.
+                    </p>
+                    <div>
+                       <div class="hikkaduwa-img">
+                                            <img src="images/SL5.jpg" width="240px" height="240px">
+                                        </div>
+                                    <div class="hikkaduwa-col">
+                                        <p>The Green Turtle is the most common in Sri Lankan waters. Growing to a maximum length of 1m and weighing about 250kg, an adult female can lay between 120 to 40 eggs at a time.</p>
+                                    </div>
+                                    </div>
+                             </section>
+                             <script>
+                                var menuBtn= document.getElementById("menuBtn")
+                                var sidenav= document.getElementById("sidenav")
+                                var menu= document.getElementById("menu")
+                
+                                sidenav.style.right="-250px";
+                
+                                menuBtn.onclick=function(){
+                                    if(sidenav.style.right=="-250px"){
+                                    sidenav.style.right="0";
+                                    menu.src="images/close.png";
+                                }
+                                else {
+                                    sidenav.style.right="-250px";
+                                    menu.src="images/menu.png";
+                                }
+                            }
+                            var scroll = new SmoothScroll('a[href*="#"]', {
+                    speed: 1000,
+                    speedAsDuration: true
+                });
+                                </script>
+                
+                        
+                    </body>
+                </html>
